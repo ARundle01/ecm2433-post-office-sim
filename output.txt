@@ -1,0 +1,14 @@
+Number of Simulations: 1000
+Input File: testInput.txt
+Output File: output.txt
+maxQueueLength: 10
+numServicePoints: 1
+closingTime: 10
+meanTolerance: 2.000000
+meanServingTime: 1.000000
+meanSpawnRate: 1.000000
+Average number of Fulfilled across 1000 simulations: 5
+Average number of Unfulfilled across 1000 simulations: 0
+Average number of Timed-Out across 1000 simulations: 2
+Average time from Closing to Finishing, over 1000 simulations: 0
+Average waiting time: 1

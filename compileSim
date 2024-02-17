@@ -1,0 +1,6 @@
+gcc -ansi -g -I./ -c queue.c -o queue.o
+gcc -ansi -g -I./ -c simQ.c -o simQ.o
+gcc -ansi -g -I./ -c fileManip.c -o fileManip.o
+gcc -ansi -g -I./ -c servicePoints.c -o servicePoints.o
+
+gcc simQ.o queue.o fileManip.o servicePoints.o -lgsl -lgslcblas -o simQ

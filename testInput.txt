@@ -1,0 +1,6 @@
+maxQueueLength 10
+numServicePoints 1
+closingTime 10
+meanTolerance 2
+meanServingTime 1
+meanSpawnRate 1
